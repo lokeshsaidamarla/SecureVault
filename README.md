@@ -8,7 +8,7 @@ It helps users store credentials securely and perform security checks.
 - Password Encryption
 - Password Storage
 - Safe Link Checker
-- Facial Verification
+- Facial Verification ( Upcoming )
 - User Profile Management
 - Secure Logout System
 

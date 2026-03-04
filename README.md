@@ -21,13 +21,14 @@ It helps users store credentials securely and perform security checks.
 - JavaScript
 
 ## 📂 Project Structure
+```
 src/
  ├── controller
  ├── model
  ├── repository
  ├── service
  └── jsp pages
-
+```
 ## ▶️ How to Run
 1. Clone the repository
 2. Open in IntelliJ / VS Code

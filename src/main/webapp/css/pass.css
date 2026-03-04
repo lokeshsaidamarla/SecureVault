@@ -1,0 +1,134 @@
+/* 🔒 Cyber Security Password Manager Style */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto&display=swap');
+
+body {
+  background: radial-gradient(circle at top, #0a0a0a, #111111 60%, #000000);
+  color: #e0f7fa;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00e6e6;
+  text-shadow: 0 0 10px #00e6e6;
+}
+
+form {
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #00e6e6;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 230, 230, 0.5);
+  padding: 25px;
+  margin: 20px auto;
+  width: 70%;
+}
+
+input[type=text],
+input[type=password] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #00e6e6;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #00ffff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background: rgba(0, 230, 230, 0.1);
+  box-shadow: 0 0 10px #00e6e6;
+}
+
+.btn {
+  background: linear-gradient(90deg, #00e6e6, #00ff99);
+  border: none;
+  color: #111;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #00ffcc, #00e6b8);
+  box-shadow: 0 0 15px #00e6e6;
+  transform: scale(1.05);
+}
+
+table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 230, 230, 0.2);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #00e6e6;
+  text-align: center;
+  color: #fff;
+}
+
+th {
+  background: #00e6e6;
+  color: #111;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+}
+
+tr:nth-child(even) {
+  background: rgba(0, 255, 255, 0.05);
+}
+
+tr:hover {
+  background: rgba(0, 255, 255, 0.15);
+  transition: 0.3s;
+}
+
+.eye-icon {
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 1.2em;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00e6e6;
+  transition: 0.3s;
+}
+
+.eye-icon:hover {
+  transform: scale(1.3);
+  color: #00e6e6;
+}
+
+.back-home {
+  margin-top: 25px;
+}
+
+a.btn {
+  color: #111;
+}
+
+a.btn:hover {
+  color: #000;
+}
+
+/* ✨ Floating Glow Animation */
+@keyframes glow {
+  0% { box-shadow: 0 0 10px #00e6e6; }
+  50% { box-shadow: 0 0 25px #00ffff; }
+  100% { box-shadow: 0 0 10px #00e6e6; }
+}
+
+form:hover {
+  animation: glow 2s infinite alternate;
+}

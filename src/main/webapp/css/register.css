@@ -1,0 +1,84 @@
+/* Background Video */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Body */
+body {
+    background: radial-gradient(circle at center, #001a33, #000814);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Form Container */
+.form-container {
+    width: 420px;
+    margin: 90px auto;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 123, 255, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+/* Heading */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-shadow: 0 0 8px #007bff;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+input:focus {
+    outline: 2px solid #007bff;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: #111;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0056cc;
+    box-shadow: 0 0 10px #007bff;
+}
+
+/* Error & Message */
+.error {
+    color: #ff6666;
+    font-size: 13px;
+}
+
+.msg {
+    color: #00ffcc;
+    font-size: 14px;
+    text-align: center;
+}

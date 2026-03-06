@@ -54,5 +54,7 @@ src/
 </table>
 
 ## 🎥 Demo
-> https://github.com/user-attachments/assets/41d6b417-a1a3-4b68-9745-c5f85da4fb39
+> https://github.com/user-attachments/assets/de958749-98c7-4cd4-9eb0-8e1128b65891
+
+
 
